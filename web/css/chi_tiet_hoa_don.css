@@ -1,0 +1,78 @@
+#ctt_hoa_don_left{	
+	padding: 35px 30px 0px; 
+}
+.order_summary button{
+	width: 100%;
+    background: none;
+    border: none;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.order_summary button h5{
+	display: inline;
+	font-size: 15px;
+}
+.order_summary button i{
+	font-size: 18px;
+    padding: 5px 10px 5px 0px;
+}
+.order_summary a img{
+	width: 100%;
+	margin: 5px 0px;
+	padding: 0;
+}
+#ctt_hoa_don h3{
+	font-weight: bold;
+}
+#ctt_hoa_don table{
+	width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+}
+#ctt_hoa_don table tr th{
+	padding: 10px;
+	border-top: 1px solid;
+}
+#ctt_hoa_don table tr td{
+	padding: 10px;
+}
+#ctt_hoa_don table tr th:nth-child(n+2){
+	text-align: center;
+}
+#ctt_hoa_don table tr td:nth-child(n+2){
+	text-align: center;
+}
+#ctt_hoa_don table tr th{
+	padding: 10px;
+}
+#ctt_hoa_don table tr:first-child th{
+	border: none;
+}
+.d1 div{
+	display: inline; 
+	padding: 0;
+}
+.d1 div:nth-child(n+2){
+	text-align: center;
+}
+#ctt_hoa_don div button{
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 17px;
+    float: right;
+    margin: 22px 0 35px;
+}
+#ctt_hoa_don_right{
+    padding: 55px 20px 0px;
+}
+#ctt_hoa_don_right div{
+	padding: 0px 7px;
+}
+#ctt_hoa_don_right div a img{
+	width: 100%;
+	margin: 5px 0px;
+	padding: 0;
+}

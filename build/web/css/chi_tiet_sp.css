@@ -1,0 +1,76 @@
+/*chi tiết sản phẩm*/
+#chi_tiet_sp_right{
+	margin-top: 30px;
+}
+#chi_tiet_sp_right a img{
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80%;
+}
+#chi_tiet_sp_left{
+	margin-top: 11px;
+
+}
+#chi_tiet_sp_left h1{
+	font-size: 40px;
+    color: #565656;
+    margin-bottom: 0px;
+}
+#chi_tiet_sp_left a{
+	text-decoration: none;
+	color: #7f7f7f;	
+	margin-bottom: 20px;
+}
+#chi_tiet_sp_left p {
+    font-size: 18px;
+    margin: 30px 0px 50px;
+/*    height: 118px;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+#chi_tiet_sp_left label{
+    cursor: pointer;
+}
+#chi_tiet_sp_left input[type="radio"]{
+	display: none;
+}
+#size_l:checked+label, #size_m:checked+label, #size_s:checked+label, #size_xl:checked+label {
+    background: #0E0606;
+    color: white;
+}
+#s, #m, #l, #xl{
+	border: 1px solid #474646;
+	font-size: 24px;
+}
+#m, #l, #xl{
+    margin-left: 10px;
+}
+#s{
+    padding: 11px 20px;
+}
+#m{
+    padding: 11px 18px;
+}
+#l{
+    padding: 11px 21px;
+}
+#xl{
+    padding: 11px 13px;
+}
+#chi_tiet_sp_left div{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#chi_tiet_sp_left input[type="submit"]{
+    border: none;
+    background: #FF9B05;
+    color: white;
+    padding: 8px 55px;
+    font-size: 18px;
+}
+/*Kết thúc chi tiết sản phẩm*/

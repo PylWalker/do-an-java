@@ -1,0 +1,114 @@
+#thanh_toan_left{	
+	padding: 50px 30px 0px; 
+        margin-bottom: 50px;
+}
+#thanh_toan_nhanh{
+	border: 1px solid;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 40px;
+}
+#thanh_toan_nhanh h5{
+	width: 140px;
+    background: white;
+    margin: -8px auto 0px auto;
+}
+
+#thanh_toan_nhanh span{
+	width: 100%;
+}
+.or{
+	border-top: 1px solid;
+	margin-top: 50px;
+	text-align: center;
+}
+.or h5{
+    width: 42px;
+    background: white;
+    margin: -7px auto 0px auto;
+}
+#thanh_toan_tai_nha{
+    margin-bottom:100px;
+}
+#thanh_toan_tai_nha form div{
+	margin-top: 10px;
+}
+#thanh_toan_tai_nha form div input{
+	width: 100%;
+}
+#thanh_toan_tai_nha form div textarea{
+	width: 100%;
+}
+#thanh_toan_tai_nha form div input,#thanh_toan_tai_nha form div textarea{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 15px;
+}
+#btn_shipping input[type="submit"]{
+    width: auto;
+    float: right;
+    background: #ff9b05;
+    color: white;
+}
+#btn_shipping a{
+	margin-top: 5px;
+	float: left;
+	text-decoration: none;
+	color: black;	
+}
+#btn_shipping a i{
+	font-weight: bold;
+	font-size: 16px;
+}
+#thanh_toan_right{
+    padding: 50px 20px 0px;
+}
+#thanh_toan_right table{
+	margin-top: 10px; 
+}
+#thanh_toan_right table tr td img {
+	width: 100%;
+}
+#thanh_toan_right table tr td div{
+	margin-top: 10px;
+}
+#thanh_toan_right table tr td div span{
+	margin-right: 10px;
+}
+#thanh_toan_right div{
+
+}
+#er_full_name, #er_phone, #er_address{
+	color: red;
+    padding-left: 12px;
+    font-size: 15px;
+}
+.order_summary button{
+	width: 100%;
+    background: none;
+    border: none;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+}
+.order_summary button h5{
+	display: inline;
+	font-size: 15px;
+}
+.order_summary button i{
+	font-size: 18px;
+    padding: 5px 10px 5px 0px;
+}
+.order_summary table{
+	margin-top: 10px;
+}
+.order_summary table tr td img{
+    width: 100%;
+}
+.order_summary table tr td div{
+	margin-top: 15px;	
+}
+.order_summary table tr td div span{
+	margin-right: 35px;
+}

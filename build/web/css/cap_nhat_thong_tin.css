@@ -1,0 +1,26 @@
+#cap_nhap_thong_tin form{
+	padding: 10px;
+}
+#cap_nhap_thong_tin form input{
+	display: block;
+	width: 450px;
+	padding: 7px 14px;
+	font-size: 16px;
+	color: #7b7b7b;
+}
+#cap_nhap_thong_tin form input[type="submit"],#cap_nhap_thong_tin form input[type="button"]{
+	display: inline;
+	width: 70px;
+	border: 1px solid #FF9B05;
+	border-radius: 8px;
+	color: white;
+	background: #FF9B05;
+}
+#cap_nhap_thong_tin form div{
+	display: block;
+	width: 450px;
+	margin: 6px 0px;
+	padding: 7px 14px;
+	font-size: 16px;
+	color: red;
+}

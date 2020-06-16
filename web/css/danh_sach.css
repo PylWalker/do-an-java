@@ -1,0 +1,263 @@
+body{
+	margin: 0;
+	padding: auto;
+}
+/*bắt đầu đăng nhập*/
+.container h1 {
+	margin: 20px 0px 50px 0px;
+	text-align: center;	
+}
+
+#dn {
+	margin-top: 30px;
+}
+/*.dn_left{
+	margin-left: 12%;
+}*/
+.dn_left span{
+	font-size: 18px;
+}
+.dn_left input{
+	height: 40px;
+    width: 300px;
+    padding: 0px 10px 0px 10px;
+    font-size: 18px;
+    border: 1px solid #474646;
+}
+#loi_ten_dang_nhap, #loi_mat_khau{
+	color: red;
+    font-size: 15px;
+    margin-top: 5px;
+    width: 300px;
+}
+.dn_right strong{
+	font-size: 18px;
+	font-style: normal;
+}
+.dn_right{
+	margin-top: 25px;
+	margin-left: 12%;
+}
+.dn_right div{
+	margin: 28px 0px 8px 0px;
+}
+.dn_right div strong{
+	font-size: 15px;
+}
+.dn_right button{
+	background: #474646;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 300px;
+}
+#btn_dn_dang_ky{
+	color: white;
+	background: #474646;
+	padding: 12px 115px 12px 115px;
+	text-decoration: none;
+}
+#btn_dn_dang_ky:hover{
+	text-decoration: none;
+	color: white;
+}
+@media only screen and (max-width: 765px) {
+	.dn_left, .dn_right{
+	    margin-left: 25%;
+	}
+}
+@media only screen and (max-width: 600px) {
+  	.dn_left, .dn_right{
+    	margin-left: 12%
+ 	}
+}
+/*kết thúc đăng nhập*/
+
+/*Đăng ký*/
+#dk {
+	margin-top: 30px;
+}
+.dk_left{
+	margin-left: 12%;
+}
+.dk_left input{
+	height: 40px;
+    width: 300px;
+    padding: 0px 10px 0px 10px;
+    font-size: 18px;
+    border: 1px solid #474646;
+}
+.dk_left span{
+	font-size: 18px;
+}
+#loi_dang_ky_ten_dn, #loi_dang_ky_email, #loi_dang_ky_sdt, #loi_dang_ky_mat_khau, #loi_dang_ky_xn_mat_khau{
+	color: red;
+    font-size: 15px;
+    margin: 5px 0px 25px 0px;
+    width: 300px;
+}
+.dk_right strong{
+	font-size: 18px;
+}
+.dk_right{
+	margin-top: 25px;
+	margin-left: 12%;
+}
+.dk_right div{
+	margin: 28px 0px 8px 0px;
+}
+.dk_right div strong{
+	font-size: 15px;
+}
+.dk_right button{
+	background: #474646;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 300px;
+}
+#btn_dk_dang_nhap{
+	color: white;
+	background: #474646;
+	padding: 12px 104px 12px 104px;
+	text-decoration: none;
+}
+#btn_dk_dang_nhap:hover{
+	text-decoration: none;
+	color: white;
+}
+@media only screen and (max-width: 765px) {
+	.dk_left, .dk_right{
+	    margin-left: 25%;
+	}
+}
+@media only screen and (max-width: 600px) {
+  	.dk_left, .dk_right{
+    	margin-left: 12%
+ 	}
+}
+/*Kết thúc đăng ký*/
+/*Giỏ hàng */
+#btn_mua_tiep{
+	color: #474646;
+	text-decoration: none;
+}
+#btn_mua_tiep:hover{
+	text-decoration: none;
+	color: #474646;
+}
+.gio_hang{
+	border-top: 1px solid #474646;
+	border-bottom: 1px solid #474646;
+}
+.anh_sp, .thong_tin_sp, .thong_tin_sp2{
+	margin: 15px 0px;
+	padding: 0px 5px;
+}
+.anh_sp img{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.thong_tin_sp, .thong_tin_sp2{
+	font-size: 18px;
+}
+.thong_tin_sp div{
+	margin: 10px 0px 0px;
+}
+.thong_tin_sp h2 , .thong_tin_sp2 h2{
+	margin: 0px;
+}
+.thong_tin_sp2{
+	text-align: right;
+}
+.thong_tin_sp2 div{
+	margin: 9px 0px 0px;
+}
+.btn_so_luong button{
+    background: none;
+    border: 1px solid #474646;
+    height: 31px;
+}
+.btn_so_luong button span{
+	margin: 0;
+    font-size: 30px;
+    height: 31px;
+    margin-top: -11px;
+    border: none;
+}
+.btn_thanh_toan{
+	text-align: center;
+	margin-top: 30px;
+}
+#btn_thanh_toan{
+	background: #474646;
+    color: white;
+    border: none;
+	font-size: 18px;
+    padding: 10px 105px;
+    text-decoration: none;
+}
+#btn_thanh_toan:hover{
+	text-decoration: none;
+}
+/*Kết thúc giỏ hàng*/
+/*Danh sách sản phẩm*/
+.sap_xep div{
+	float: left;
+	margin: 9px 0px 0px 10px;
+    font-size: 16px;
+}
+.sap_xep div a{
+	text-decoration: none;
+    color: #474646;
+}
+.sap_xep span{
+	float: right;
+    margin: 9px 220px 0px 0px;
+    font-size: 16px;
+}
+#sap_xep{
+	position: absolute;
+	right: 2%;
+	width: 200px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 6px;
+}
+.danh_sach_sp{
+	margin-bottom: 50px;
+
+}
+.danh_sach_sp a img{
+	width: 100%;
+}
+.danh_sach_sp h3{
+	text-align: center;
+        margin-top: 20px;
+}
+.danh_sach_sp h3 a{
+	text-decoration: none;
+	color: #474646;
+}
+.danh_sach_sp div {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.danh_sach_sp button{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background: #FF9B05;
+	border: none;
+	border-radius: 32px;
+	color: white;
+	font-size: 16px;
+	padding: 5px 24px;
+}
+.clear{
+	clear: both;
+}
+/*Kết thúc*/

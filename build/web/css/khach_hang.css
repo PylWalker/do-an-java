@@ -1,0 +1,37 @@
+#thong_tin_khach_hang form{
+	padding: 10px;
+}
+#thong_tin_khach_hang form input{
+	display: block;
+	width: 450px;
+	margin: 10px 0px 26px;
+	padding: 7px 14px;
+	font-size: 16px;
+	color: #7b7b7b;
+}
+#thong_tin_khach_hang table{
+	margin: 10px;
+}
+#thong_tin_khach_hang form input[type="submit"]{
+	text-decoration: none;
+	color: white;
+	background: #FF9B05;
+	font-size: 18px;
+	border: 1px solid #FF9B05;
+	border-radius: 8px;
+	padding: 9px 14px;
+        width: 182px;
+        display: inline;
+}
+
+#thong_tin_khach_hang form input[type="button"]{
+	text-decoration: none;
+	color: white;
+	background: #FF9B05;
+	font-size: 18px;
+	border: 1px solid #FF9B05;
+	border-radius: 8px;
+	padding: 9px 14px;
+        width: 182px;
+        display: inline;
+}

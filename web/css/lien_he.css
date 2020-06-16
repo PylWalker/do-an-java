@@ -1,0 +1,27 @@
+body{
+	margin: auto;
+	padding: 0px;
+}
+#lien_he{
+	margin: 12px 0px 30px;
+}
+#lien_he div{
+	font-size: 18px;
+    margin: 18px 0px 5px 0px;
+}
+.lien_he{
+	width: 100%;
+	height: 40px;
+	padding: 0px 10px;
+}
+#lien_he textarea{
+	width: 100%;
+	padding: 10px;
+}
+#btn_lien_he{
+	background: #FF9B05;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 8px 56px 8px 56px;
+}
